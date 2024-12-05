@@ -55,7 +55,7 @@ strong {
 nav {
     background-color: black;
     padding: 5px 20px 5px 20px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     text-align: center;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -67,8 +67,13 @@ nav > a {
     padding: 0px 5px;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.281);
     background-image: linear-gradient(to right bottom, var(--cor3), var(--cor2), transparent);
-    letter-spacing: 1px;
+    
     border-radius: 8px;
+    
+}
+
+nav > a:hover {
+    letter-spacing: 2px;
     transition-duration: 1s;
 }
 
@@ -184,8 +189,9 @@ section > ul > li {
     margin: auto;
 }
 
-li > a {
+li > a:hover {
     transition-duration: 1s;
+    letter-spacing: 2px;
 }
 
 div > h2 {

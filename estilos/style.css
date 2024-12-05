@@ -74,7 +74,7 @@ nav > a {
 
 nav > a:hover {
     letter-spacing: 2px;
-    transition-duration: 1s;
+    transition-duration: 1.5s;
 }
 
 a {
@@ -101,6 +101,9 @@ main {
     border-top-right-radius: 5px;
     padding: 5px;
     margin-top: 2px;
+    max-width: 1400px;
+    min-width: 340px;
+    margin: auto;
 }
 
 article {
@@ -140,9 +143,9 @@ section {
     background-position: top center;
     text-decoration: none;
     
-    margin: 0px -10px 0px -10px;
-    width: 100vw;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.411);
+    margin: 0px -5px 0px -5px;
+    
+    box-shadow: inset 8px 8px 15px 0px rgba(0, 0, 0, 0.411);
 }
 
 section > h2 {
@@ -165,7 +168,7 @@ section > ul > li > a:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: black;
-    padding-top: 5px;
+    padding-top: 10px;
     text-shadow: 2px 2px 0px white;
 }
 
@@ -182,11 +185,13 @@ section > ul {
     list-style-type: '\1F4CB\00A0\00A0';
     border-radius: 5px;
     margin: auto;
+    margin-top: 4vh;
 }
 
 section > ul > li {
-    text-align:left center;
+    text-align:justify;
     margin: auto;
+    min-width: 100vw;
 }
 
 li > a:hover {

@@ -140,7 +140,7 @@ section {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: top center;
+    background-position:center;
     text-decoration: none;
     
     margin: 0px -5px 0px -5px;
